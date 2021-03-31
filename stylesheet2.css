@@ -1,0 +1,169 @@
+body{
+    background-image: linear-gradient(rgba(79, 79, 80, 0.5),rgba(45, 46, 46, 0.5)),url(tech3.jpg);
+    background-size: cover;
+}
+nav{
+    background: rgb(75, 204, 247) ;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+label.logo{
+    color: rgb(216, 4, 163);
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+    
+
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: white;
+    font-size:17px ;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+a.active,a:hover{
+    background: #1b9bff;
+    transition: .5s ;
+}
+.checkbtn{
+    font-size:30px;
+    color:white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+
+}
+.munene{
+    float: none;
+    font-size: large;
+    
+}
+.nesh {
+    background-image: url(tech2.jpg);
+    float: left;
+    color: white;
+    background-size: cover;
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    height: 350px;
+    border: 1px solid black;
+    
+    
+ }
+ .maggie{
+     display: inline-block;
+     float: none;
+
+ }
+ .container{
+     float: left;
+ }
+ .mum{
+     float: right;
+ }
+ .tech{
+     float: right;
+     margin-right: 130px;
+ }
+ .john {
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) url(tech1.jpg);
+    float: left;
+    margin-top: 250px;
+    color: white;
+    background-size: cover;
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    height: 350px;
+    border: 1px solid black;
+    font-size: 17px;
+    
+ }
+ marquee{
+    color:white;
+    font-size:18px ;
+    font-weight: 5px;
+}
+.prada{
+    float: left;
+    margin-left: 45px;
+    font-size: 18px;
+    font-family: sans-serif;
+
+}.prada2{
+
+    float: left;
+    font-size: 18px;
+    margin-left: 65px;
+}
+.prada3{
+    float: right;
+   margin-right: 45px;
+   max-width: 300px;
+   max-height: 450px;
+}
+.socials{
+    margin-top: 1%;
+    text-align: center;
+    float: right;
+    margin-right: 550px;
+}
+.socials a{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+.socials a:nth-child(1){
+    background: #3b5998;
+}
+.socials a:nth-child(2){
+    background: #55acee;
+}
+.socials a:nth-child(3){
+    background: #bd081c;
+}
+.socials a:nth-child(4){
+    background: #0077b5;
+}
+.socials a i{
+    padding: 8px 0;
+}
+.copy{
+    float: left;
+    margin-top: 4%;
+    margin-left: 80px;
+    font-size: 16px;
+}
+.late{
+    background: rgb(75, 204, 247) ;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    height: 650px;
+}

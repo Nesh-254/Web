@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+}
+body{
+    
+}
+nav{
+    background: rgb(75, 204, 247) ;
+    height: 90px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+label.logo{
+    color: rgb(216, 4, 163);
+    font-size: 35px;
+    line-height: 100px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+    
+
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: white;
+    font-size:17px ;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+a.active,a:hover{
+    background: #1b9bff;
+    transition: .5s ;
+}
+.checkbtn{
+    font-size:30px;
+    color:white;
+    float: right;
+    line-height: 80px;
+    margin-right: 20px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+
+}
+.maggie{
+    background-image: url(1.png);
+    background-size: cover;
+
+}
+.edu{
+    float: left;
+    font-size: 16px;
+    margin-left:25px ;
+    
+}
+.jose{
+    float: right;
+    margin-right: 30px;
+}
+.carly {
+    float: left;
+    margin: left 50px;
+    width: 270px;
+    height: 300px;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px;
+    color: black;
+    background-image:linear-gradient(rgba(66, 65, 65, 0.7),rgba(65, 64, 64, 0.6)),url(door.jpeg);
+    margin-top: 45px;
+    background-size: cover;
+    font-weight: bold;
+    background
+
+}
+.carly:hover {
+    transform: translate(10px);
+    color:blue;
+    
+}
+.melly {
+    float: left;
+    margin-top: 15px;
+    margin-right: 250px;
+    width: 270px;
+    height: 300px;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px;
+    color: rgb(8, 8, 8);
+    background-image:linear-gradient(rgba(66, 65, 65, 0.7),rgba(65, 64, 64, 0.6)),url(asd.png);
+    margin-top: 10px;
+    margin-right: 10px;
+    background-size: cover;
+    font-size: 16px;
+    text-shadow: black;
+    font-weight: bold;
+}
+.melly:hover {
+    transform: translate(10px);
+    color: blue;
+    
+}
+.suicidal {
+    float: left;
+    margin-top: 1px;
+    margin-right: 250px;
+    width: 270px;
+    height: 300px;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px;
+    color: black;
+    background-image:linear-gradient(rgba(66, 65, 65, 0.7),rgba(65, 64, 64, 0.6)),url(fire.jpeg);
+    margin-top: 10px;
+    margin-right: 10px;
+    background-size: cover;
+    font-size: 16px;
+    text-shadow: black;
+    font-weight: bold;
+}
+.suicidal:hover {
+    transform: translate(10px);
+    color: blue;
+}
+.love {
+    float: left;
+    margin-top: 1px;
+    margin-right: 250px;
+    width: 270px;
+    height: 300px;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px;
+    color: black;
+    background-image:linear-gradient(rgba(66, 65, 65, 0.7),rgba(65, 64, 64, 0.6)),url(3.jpg);
+    margin-top: 10px;
+    margin-right: 10px;
+    background-size: cover;
+    font-size: 16px;
+    text-shadow: black;
+    font-weight: bold;
+}
+.love:hover {
+    transform: translate(10px);
+    color: blue;
+    
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  .prada{
+    float: left;
+    margin-left: 45px;
+    font-size: 18px;
+    font-family: sans-serif;
+
+}.prada2{
+
+    float: left;
+    font-size: 18px;
+    margin-left: 65px;
+}
+.prada3{
+    float: right;
+   margin-right: 45px;
+   max-width: 300px;
+   max-height: 450px;
+}
+.socials{
+    margin-top: 1%;
+    text-align: center;
+    float: right;
+    margin-right: 550px;
+}
+.socials a{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+.socials a:nth-child(1){
+    background: #3b5998;
+}
+.socials a:nth-child(2){
+    background: #55acee;
+}
+.socials a:nth-child(3){
+    background: #bd081c;
+}
+.socials a:nth-child(4){
+    background: #0077b5;
+}
+.socials a i{
+    padding: 8px 0;
+}
+.copy{
+    float: left;
+    margin-top: 4%;
+    margin-left: 80px;
+    font-size: 16px;
+}

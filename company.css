@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+}
+nav{
+    background: rgb(75, 204, 247) ;
+    height: 90px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+label.logo{
+    color: rgb(216, 4, 163);
+    font-size: 35px;
+    line-height: 100px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+    
+
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: white;
+    font-size:17px ;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+a.active,a:hover{
+    background: #1b9bff;
+    transition: .5s ;
+}
+.checkbtn{
+    font-size:30px;
+    color:white;
+    float: right;
+    line-height: 80px;
+    margin-right: 20px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+
+}
+.company{
+    font-size: 16px;
+    float: left;
+    font-family: sans-serif;
+    margin-left: 15px;
+}
+.container {
+    float: right;
+    width: 450px;
+    height: 710px;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px;
+    color: black;
+   
+    margin-top: 10px;
+    margin-right: 10px;
+   
+    font-size: 16px;
+    text-shadow: black;
+    
+}
+.about{
+    width: 1350px;
+    height: 300px;
+    background-image:linear-gradient(rgba(150, 205, 250, 0.4),rgba(155, 195, 248, 0.4)),url(asd.png);
+    background-size: cover;
+
+    
+}
+.about2{
+    margin-left: 43px;
+    font-size: 35px;
+    color: #fff;
+}
+.prada{
+    float: left;
+    margin-left: 45px;
+    font-size: 18px;
+    font-family: sans-serif;
+
+}.prada2{
+
+    float: left;
+    font-size: 18px;
+    margin-left: 65px;
+}
+.prada3{
+    float: right;
+   margin-right: 45px;
+   max-width: 300px;
+   max-height: 450px;
+}
+.socials{
+    margin-top: 1%;
+    text-align: center;
+    float: right;
+    margin-right: 550px;
+}
+.socials a{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+.socials a:nth-child(1){
+    background: #3b5998;
+}
+.socials a:nth-child(2){
+    background: #55acee;
+}
+.socials a:nth-child(3){
+    background: #bd081c;
+}
+.socials a:nth-child(4){
+    background: #0077b5;
+}
+.socials a i{
+    padding: 8px 0;
+}
+.copy{
+    float: left;
+    margin-top: 4%;
+    margin-left: 80px;
+    font-size: 16px;
+}
